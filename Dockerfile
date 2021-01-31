@@ -19,6 +19,9 @@ WORKDIR /app
 # COPY THE CONTENT OF APP FOLDER FROM APP projects into APP folder of DOCKER image.
 COPY ./app /app
 
+#
+COPY . .
+
 # Adding user that can only run the APP.
 RUN adduser -D user
 
