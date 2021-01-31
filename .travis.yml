@@ -1,6 +1,6 @@
 language: python
 python:
-  -"3.9" # version of stable python in travis channel
+  -"3.7" # version of stable python in travis channel
 
 services:
   - docker
